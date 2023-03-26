@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Person API</title>
+    <!-- Styles && Fav Icon -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/space-invader-32.png" />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JS -->
+    <script type="module" src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="block bcg-black"></div>
+    <div class="block">
+      <div class="container">
+        <img
+          src="https://randomuser.me/api/portraits/men/75.jpg"
+          alt=""
+          class="user-img"
+        />
+        <p class="user-title">my name is</p>
+        <p class="user-value">john smith</p>
+        <div class="values-list">
+          <!--icon-->
+          <button class="icon active" data-label="name">
+            <span class="fa-regular fa-user"></span>
+          </button>
+          <!--icon-->
+          <button class="icon" data-label="email">
+            <span class="fa-regular fa-envelope"></span>
+          </button>
+          <!--icon-->
+          <button class="icon" data-label="age">
+            <span class="fa-regular fa-calendar"></span>
+          </button>
+          <!--icon-->
+          <button class="icon" data-label="street">
+            <span class="fa-regular fa-map"></span>
+          </button>
+          <!--icon-->
+          <button class="icon" data-label="phone">
+            <span class="fa-solid fa-mobile-screen-button"></span>
+          </button>
+          <!--icon-->
+          <button class="icon" data-label="password">
+            <span class="fa-solid fa-lock"></span>
+          </button>
+        </div>
+        <button class="btn" type="button">random user</button>
+      </div>
+    </div>
+  </body>
+</html>
