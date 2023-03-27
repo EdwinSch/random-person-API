@@ -251,3 +251,16 @@ p {
     font-size: 2rem;
   }
 }
+
+/* < 300px */
+@media screen and (max-width: 300px) {
+  .user-value {
+    font-size: 22px;
+  }
+  .values-list {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}

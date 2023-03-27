@@ -1,7 +1,5 @@
-### Main Title
+## Random Person API
 
-## Sub Heading/Title
-
-Lorem Ipsum
+This project gets random (fake) persons from the Random User Generator API. Build in JavaScript to practice API calling, destructuring and rendering functionalities.
 
 🚀 [SOME LINK](https://google.com)
